@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keliling & Luas Persegi</title>
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <header class="head">
+                <h2>Kalkulator Persegi</h2>
+            </header>
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Persegi.png" alt="dor">
+            </div>
+            <br>
+            <label for="sisi">Sisi Persegi:</label>
+            <input type="number" id="sisi" placeholder="Masukkan nilai sisi">
+            <div class="button-container"><button onclick="calculate()">Hitung</button></div>
+           
+            <h3>Hasil Operasi Hitung:</h3>
+            <p id="luas">Luas: </p>
+            <p id="keliling">Keliling: </p>
+            <div class="button-container"> 
+                <button onclick="resetInput()">Reset Angka</button>
+            </div>
+        </div>
+    </div>
+
+<script src="JS/script.js"></script>
+</body>
+</html>
